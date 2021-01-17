@@ -1,0 +1,59 @@
+{
+    "loader": "forge:obj",
+    "flip-v": true,
+    "ambientToFullbright": false,
+    "materialLibraryOverride": "umbrellamod:models/item/white_umbrella_close_3d.mtl",
+    "model": "umbrellamod:models/item/white_umbrella_close_3d.obj",
+    
+    "display":
+    {
+        "thirdperson_righthand":
+        {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 6, 2 ],
+            "scale": [ 1, 1, 1]
+        },
+        
+        "thirdperson_lefthand":
+        {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 6, 2 ],
+            "scale": [ 1, 1, 1]
+        },
+        
+        "firstperson_righthand":
+        {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, 1, 2 ],
+            "scale": [ 1, 1, 1]
+        },
+        
+        "firstperson_lefthand":
+        {
+            "rotation": [ -90, 0, 0 ],
+            "translation": [ 0, 1, 2 ],
+            "scale": [ 1, 1, 1]
+        },
+        
+        "head":
+        {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 15, 0 ],
+            "scale": [ 1, 1, 1]
+        },
+        
+        "ground":
+        {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5]
+        }
+    },
+    
+    "__comment0": "flip-v may be required if your texture appears mirrored.  See OBJloader::read() for other flags.  currently the available options are",
+    "__comment1": "detectCullableFaces (default true) = try to convert faces to Directional Quads (EAST, WEST, etc) instead of just general quads",
+    "__comment2": "diffuseLighting (default false) = attempt to apply the direction-dependent lighting as per vanilla blocks.  Currently does nothing.",
+    "__comment3": "flipV (default false) = mirror the texture sheet top-->bottom (if your textures appear upside-down)",
+    "__comment4": "ambientToFullbright (default true) = always render at maximum world illumination (combinedLight) regardless of the actual skylight or blocklight present",
+    "__comment5": "materialLibraryOverrideLocation (default null) = use this path/filename for the material library file .mtl"
+}

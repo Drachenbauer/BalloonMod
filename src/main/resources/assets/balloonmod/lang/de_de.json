@@ -1,0 +1,39 @@
+{
+    //ItemGroup name
+    "itemGroup.umbrellas": "Regenschirme",
+    
+    //Item names
+    "item.umbrellamod.black_umbrella": "Schwarzer Regenschirm",
+    "item.umbrellamod.blue_umbrella": "Blauer Regenschirm",
+    "item.umbrellamod.brown_umbrella": "Brauner Regenschirm",
+    "item.umbrellamod.cyan_umbrella": "Türkiser Regenschirm",
+    "item.umbrellamod.gray_umbrella": "Grauer Regenschirm",
+    "item.umbrellamod.green_umbrella": "Grüner Regenschirm",
+    "item.umbrellamod.light_blue_umbrella": "Hellblauer Regenschirm",
+    "item.umbrellamod.light_gray_umbrella": "Hellgrauer Regenschirm",
+    "item.umbrellamod.lime_umbrella": "Hellgrüner Regenschirm",
+    "item.umbrellamod.magenta_umbrella": "Magenta Regenschirm",
+    "item.umbrellamod.orange_umbrella": "Oranger Regenschirm",
+    "item.umbrellamod.pink_umbrella": "Rosa Regenschirm",
+    "item.umbrellamod.purple_umbrella": "Violetter Regenschirm",
+    "item.umbrellamod.red_umbrella": "Roter Regenschirm",
+    "item.umbrellamod.white_umbrella": "Weißer Regenschirm",
+    "item.umbrellamod.yellow_umbrella": "Gelber Regenschirm",
+    
+    "item.umbrellamod.black_umbrella_close": "Schwarzer Regenschirm",
+    "item.umbrellamod.blue_umbrella_close": "Blauer Regenschirm",
+    "item.umbrellamod.brown_umbrella_close": "Brauner Regenschirm",
+    "item.umbrellamod.cyan_umbrella_close": "Türkiser Regenschirm",
+    "item.umbrellamod.gray_umbrella_close": "Grauer Regenschirm",
+    "item.umbrellamod.green_umbrella_close": "Grüner Regenschirm",
+    "item.umbrellamod.light_blue_umbrella_close": "Hellblauer Regenschirm",
+    "item.umbrellamod.light_gray_umbrella_close": "Hellgrauer Regenschirm",
+    "item.umbrellamod.lime_umbrella_close": "Hellgrüner Regenschirm",
+    "item.umbrellamod.magenta_umbrella_close": "Magenta Regenschirm",
+    "item.umbrellamod.orange_umbrella_close": "Oranger Regenschirm",
+    "item.umbrellamod.pink_umbrella_close": "Rosa Regenschirm",
+    "item.umbrellamod.purple_umbrella_close": "Violetter Regenschirm",
+    "item.umbrellamod.red_umbrella_close": "Roter Regenschirm",
+    "item.umbrellamod.white_umbrella_close": "Weißer Regenschirm",
+    "item.umbrellamod.yellow_umbrella_close": "Gelber Regenschirm"
+}

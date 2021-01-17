@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ccc",
+        "sss",
+        " s "
+    ],
+    
+    "key":
+    {
+        "c":
+        {
+            "item": "minecraft:black_carpet"
+        },
+        
+        "s":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "umbrellamod:black_umbrella",
+        "count": 1
+    },
+    
+    "group": "umbrella"
+}

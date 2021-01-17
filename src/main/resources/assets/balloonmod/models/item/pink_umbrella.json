@@ -1,0 +1,52 @@
+{
+    "parent":"umbrellamod:item/pink_umbrella_gui",
+    "loader":"umbrellamod:separate_perspective",
+    
+    "base":
+    {
+        "parent": "umbrellamod:item/pink_umbrella_gui"
+    },
+    
+    "perspectives":
+    {
+        "gui":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_gui"
+        },
+        
+        "fixed":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_gui"
+        },
+        
+        "first_person_right_hand":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        },
+        
+        "first_person_left_hand":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        },
+        
+        "third_person_right_hand":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        },
+        
+        "third_person_left_hand":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        },
+        
+        "head":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        },
+        
+        "ground":
+        {
+            "parent": "umbrellamod:item/pink_umbrella_3d"
+        }
+    }
+}
