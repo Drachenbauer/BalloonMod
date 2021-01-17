@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "facing=north": { "model": "balloonmod:block/brown_balloon" },
+        "facing=east":  { "model": "balloonmod:block/brown_balloon", "y": 90 },
+        "facing=south": { "model": "balloonmod:block/brown_balloon", "y": 180 },
+        "facing=west":  { "model": "balloonmod:block/brown_balloon", "y": 270 }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "balloonmod:block/balloon",
+    
+    "textures":
+    {
+        "1": "block/purple_concrete"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    
+    "values":
+    [
+        "balloonmod:black_balloon",
+        "balloonmod:blue_balloon",
+        "balloonmod:brown_balloon",
+        "balloonmod:cyan_balloon",
+        "balloonmod:gray_balloon",
+        "balloonmod:green_balloon",
+        "balloonmod:light_blue_balloon",
+        "balloonmod:light_gray_balloon",
+        "balloonmod:lime_balloon",
+        "balloonmod:magenta_balloon",
+        "balloonmod:orange_balloon",
+        "balloonmod:pink_balloon",
+        "balloonmod:purple_balloon",
+        "balloonmod:red_balloon",
+        "balloonmod:white_balloon",
+        "balloonmod:yellow_balloon"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "": { "model": "balloonmod:block/green_balloon_top" }
+    }
+}

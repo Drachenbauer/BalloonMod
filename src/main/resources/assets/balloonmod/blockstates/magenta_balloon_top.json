@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "": { "model": "balloonmod:block/magenta_balloon_top" }
+    }
+}

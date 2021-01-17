@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:red_dye"
+        },
+        
+        {
+            "item": "balloonmod:white_balloon"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "balloonmod:red_balloon",
+        "count": 1
+    },
+    
+    "group": "balloon"
+}

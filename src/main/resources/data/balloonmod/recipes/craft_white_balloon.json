@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " p ",
+        " s "
+    ],
+    
+    "key":
+    {   
+        "p":
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        
+        "s":
+        {
+            "item": "minecraft:string"
+        }
+    },
+    
+    "result":
+    {
+        "item": "balloonmod:white_balloon",
+        "count": 1
+    },
+    
+    "group": "balloon"
+}

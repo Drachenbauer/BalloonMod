@@ -1,8 +1,0 @@
-{
-    "parent": "item/generated",
-    
-    "textures":
-    {
-        "layer0": "umbrellamod:item/orange_umbrella_close"
-    }
-}
