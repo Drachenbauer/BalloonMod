@@ -27,7 +27,7 @@ public class BalloonItems
         
         for(BalloonColors color : BalloonColors.values())
         {
-            BALLOONS.put(color,ITEMS.register(color.GetName()+"_balloon", () -> new BalloonBlockItem(color,
+            BALLOONS.put(color,ITEMS.register(color.getName()+"_balloon", () -> new BalloonBlockItem(color,
                          new Item.Properties().defaultMaxDamage(0).group(Balloon.BALLOONS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair())));
             
             if (i < BalloonColors.values().length - 1)

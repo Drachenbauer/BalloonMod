@@ -29,12 +29,12 @@ public enum BalloonColors
         this.color = color;
     }
     
-    public String GetName()
+    public String getName()
     {
         return name;
     }
     
-    public MaterialColor GetColor()
+    public MaterialColor getColor()
     {
         return color;
     }

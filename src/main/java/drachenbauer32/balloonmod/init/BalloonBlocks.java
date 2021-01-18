@@ -29,10 +29,10 @@ public class BalloonBlocks
         
         for(BalloonColors color : BalloonColors.values())
         {
-            BALLOONS.put(color, BLOCKS.register(color.GetName()+"_balloon", () -> new BalloonBlock(color, Block.Properties.create(Material.WOOL, color.GetColor()).sound(SoundType.CLOTH).
+            BALLOONS.put(color, BLOCKS.register(color.getName()+"_balloon", () -> new BalloonBlock(color, Block.Properties.create(Material.WOOL, color.getColor()).sound(SoundType.CLOTH).
                          lightValue(0).hardnessAndResistance(0.1f, 0.5f).variableOpacity())));
             
-            BALLOONS_TOP.put(color, BLOCKS.register(color.GetName()+"_balloon_top", () -> new BalloonBlockTop(color, Block.Properties.create(Material.WOOL, color.GetColor()).sound(SoundType.CLOTH).
+            BALLOONS_TOP.put(color, BLOCKS.register(color.getName()+"_balloon_top", () -> new BalloonBlockTop(color, Block.Properties.create(Material.WOOL, color.getColor()).sound(SoundType.CLOTH).
                              lightValue(0).hardnessAndResistance(0.1f, 0.5f).variableOpacity())));
             
             if (i < BalloonColors.values().length - 1)
