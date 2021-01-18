@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import drachenbauer32.balloonmod.Balloon;
-import drachenbauer32.balloonmod.init.BalloonBlocks;
 import drachenbauer32.balloonmod.items.BalloonBlockItem;
 import drachenbauer32.balloonmod.util.Reference;
 import drachenbauer32.balloonmod.util.BalloonColors;
@@ -28,8 +27,8 @@ public class BalloonItems
         
         for(BalloonColors color : BalloonColors.values())
         {
-            BALLOONS.put(color,ITEMS.register(color.GetName()+"_balloon", () -> new BalloonBlockItem(color, BalloonBlocks.BALLOONS.get(color).get(),
-                        new Item.Properties().defaultMaxDamage(0).group(Balloon.BALLOONS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair())));
+            BALLOONS.put(color,ITEMS.register(color.GetName()+"_balloon", () -> new BalloonBlockItem(color,
+                         new Item.Properties().defaultMaxDamage(0).group(Balloon.BALLOONS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair())));
             
             if (i < BalloonColors.values().length - 1)
             {

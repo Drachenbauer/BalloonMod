@@ -1,6 +1,8 @@
 package drachenbauer32.balloonmod;
 
 import java.util.Comparator;
+
+import drachenbauer32.balloonmod.init.BalloonBlocks;
 import drachenbauer32.balloonmod.init.BalloonItems;
 import drachenbauer32.balloonmod.items.BalloonBlockItem;
 import drachenbauer32.balloonmod.util.BalloonItemGroup;
@@ -25,6 +27,7 @@ public class Balloon
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientRegistries);
         
+        BalloonBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BalloonItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinecraftForge.EVENT_BUS.register(this);
     }
