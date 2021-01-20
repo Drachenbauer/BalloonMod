@@ -20,24 +20,12 @@ public class BalloonItems
     
     public static final Map<BalloonColors, RegistryObject<Item>> BALLOONS = Collections.synchronizedMap(new HashMap<BalloonColors, RegistryObject<Item>>());
     
-    private static int i = 0;
-    
     static
     {
-        
         for(BalloonColors color : BalloonColors.values())
         {
             BALLOONS.put(color,ITEMS.register(color.getName()+"_balloon", () -> new BalloonBlockItem(color,
                          new Item.Properties().defaultMaxDamage(0).group(Balloon.BALLOONS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair())));
-            
-            if (i < BalloonColors.values().length - 1)
-            {
-                i++;
-            }
-            else
-            {
-                i = 0;
-            }
         }
     }
 }

@@ -22,11 +22,8 @@ public class BalloonBlocks
     public static final Map<BalloonColors, RegistryObject<Block>> BALLOONS = Collections.synchronizedMap(new HashMap<BalloonColors, RegistryObject<Block>>());
     public static final Map<BalloonColors, RegistryObject<Block>> BALLOONS_TOP = Collections.synchronizedMap(new HashMap<BalloonColors, RegistryObject<Block>>());
     
-    private static int i = 0;
-    
     static
     {
-        
         for(BalloonColors color : BalloonColors.values())
         {
             BALLOONS.put(color, BLOCKS.register(color.getName()+"_balloon", () -> new BalloonBlock(color, Block.Properties.create(Material.WOOL, color.getColor()).sound(SoundType.CLOTH).
@@ -34,15 +31,6 @@ public class BalloonBlocks
             
             BALLOONS_TOP.put(color, BLOCKS.register(color.getName()+"_balloon_top", () -> new BalloonBlockTop(color, Block.Properties.create(Material.WOOL, color.getColor()).sound(SoundType.CLOTH).
                              lightValue(0).hardnessAndResistance(0.1f, 0.5f).variableOpacity())));
-            
-            if (i < BalloonColors.values().length - 1)
-            {
-                i++;
-            }
-            else
-            {
-                i = 0;
-            }
         }
     }
 }
